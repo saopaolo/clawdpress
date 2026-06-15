@@ -1,0 +1,51 @@
+{
+  "id": "home",
+  "name": "Home",
+  "slug": "/",
+  "icon": "ti-home",
+  "seo": {
+    "title": "My Brand — Build SEO-first websites without the backend weight",
+    "description": "ClawdPress outputs clean, semantic HTML that search engines and LLMs love. Powered by AI, extended by APIs, owned by you.",
+    "keyword": "SEO CMS, static site, AI content"
+  },
+  "blocks": [
+    {
+      "id": "b1",
+      "type": "hero",
+      "data": {
+        "tag": "Welcome to ClawdPress",
+        "title": "Build SEO-first websites without the backend weight",
+        "body": "ClawdPress outputs clean, semantic HTML that search engines and LLMs love. Powered by AI, extended by APIs, owned by you.",
+        "cta": "Get started",
+        "ctaHref": "/about",
+        "cta2": "See how it works",
+        "cta2Href": "/faq"
+      }
+    },
+    {
+      "id": "b2",
+      "type": "features",
+      "data": {
+        "title": "Everything your brand needs",
+        "sub": "No database. No bloat. Just fast, readable HTML.",
+        "features": [
+          { "icon": "ti-code", "title": "Pure HTML output", "body": "Every page exports as clean, semantic HTML that crawlers and AI models read perfectly." },
+          { "icon": "ti-sparkles", "title": "Claude AI built-in", "body": "Generate copy, rewrite headlines, and optimise for SEO — all inside the editor." },
+          { "icon": "ti-plug", "title": "Extend with APIs", "body": "Connect Supabase, Stripe, or any API. Add backend when you need it, not before." }
+        ]
+      }
+    },
+    {
+      "id": "b3",
+      "type": "cta",
+      "data": {
+        "title": "Ready to launch your brand?",
+        "body": "Start building with ClawdPress today. No credit card. No lock-in.",
+        "cta": "Start for free",
+        "ctaHref": "https://github.com/your-org/clawdpress",
+        "cta2": "Read the docs",
+        "cta2Href": "/faq"
+      }
+    }
+  ]
+}

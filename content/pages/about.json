@@ -1,0 +1,29 @@
+{
+  "id": "about",
+  "name": "About",
+  "slug": "/about",
+  "icon": "ti-info-circle",
+  "seo": {
+    "title": "About | My Brand",
+    "description": "ClawdPress was built for brands that care about being found — by people and by AI."
+  },
+  "blocks": [
+    {
+      "id": "b4",
+      "type": "hero",
+      "data": {
+        "tag": "Our story",
+        "title": "Built for brands that care about being found",
+        "body": "ClawdPress was born from frustration — heavy CMSs, bloated output, and content invisible to AI crawlers."
+      }
+    },
+    {
+      "id": "b5",
+      "type": "text",
+      "data": {
+        "title": "Why ClawdPress?",
+        "body": "Most website builders sacrifice search performance for visual convenience. We refused that trade-off. Every ClawdPress site outputs raw, readable HTML — the kind that Google, Bing, and AI search engines can parse instantly, without executing JavaScript or fighting hydration."
+      }
+    }
+  ]
+}

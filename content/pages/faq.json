@@ -1,0 +1,24 @@
+{
+  "id": "faq",
+  "name": "FAQ",
+  "slug": "/faq",
+  "icon": "ti-help-circle",
+  "seo": {
+    "title": "FAQ | My Brand",
+    "description": "Frequently asked questions about ClawdPress — hosting, AI, integrations, and more."
+  },
+  "blocks": [
+    {
+      "id": "b6",
+      "type": "faq",
+      "data": {
+        "title": "Frequently asked questions",
+        "faqs": [
+          { "q": "Do I need a server to run my site?", "a": "No. ClawdPress generates static HTML files you can host anywhere — Netlify, Cloudflare Pages, S3, or even your own server." },
+          { "q": "How does the Claude AI integration work?", "a": "You bring your own Anthropic API key. ClawdPress sends your content to Claude for suggestions, rewrites, and SEO optimisation — your data stays yours." },
+          { "q": "Can I add a contact form or ecommerce?", "a": "Yes. Connect Supabase for forms, auth, and a light database. Add Stripe via Supabase Edge Functions for payments." }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "name": "My Brand",
+  "url": "https://example.com",
+  "description": "ClawdPress sample site — clean HTML, SEO-ready, AI-assisted.",
+  "logo": "",
+  "favicon": "",
+  "theme": {
+    "primaryColor": "#7C5CFC",
+    "fontHeading": "Inter",
+    "fontBody": "Inter"
+  },
+  "navigation": [
+    { "label": "Home", "href": "/" },
+    { "label": "About", "href": "/about" },
+    { "label": "FAQ", "href": "/faq" }
+  ]
+}
